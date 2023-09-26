@@ -7,6 +7,7 @@ import { ReportsModule } from './reports/reports.module';
 import { UserModule } from './users/user.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './users/user.entity';
+import { Report } from './reports/report.entity';
 
 @Module({
   imports: [
